@@ -58,3 +58,10 @@ default rate that the business can consider. For example, if the threshold is se
 rejected for the credit card. This would be loss for the business as we are rejecting and on the other side there might be some customer whose probability is less than 0.5 but 
 they have defaulted in actual which would be a loss to the business as the applicant hasn't paid the credit card bill. So we need to find the optimum threshold probability that
 best suits the business by generating more revenue with good profits. 
+There are two ways to approach this
+1. Conservative Strategy
+2. Aggressive Strategy
+# Conservative Strategy
+In this strategy, our main objective would be to reduce the loss that is being generated due to the failure of credit card payments. This case would require the threshold as low as possible. So that the applicants whose default rate probability below this would be accepted. 
+# Aggressive Strategy
+This strategy concentrates on increasing the number of applicants by keeping the default rate at a higher level. So that the number of customers being accepted for credit card would be high
